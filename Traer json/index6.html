@@ -14,12 +14,25 @@
     <h1>Hello, world!</h1>
     <div class="container my-5 text-center">
         <button class="btn btn-danger w-100" onclick="traer()">Obtener</button>
-        <div class="mt-5" id="contenido">
-            <p></p>
+        <div class="mt-5">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Estado</th>
+              </tr>
+            </thead>
+            <tbody id="contenido">
+              
+            </tbody>
+          </table>
+            
         </div>
     </div>
 
-    <script src="javascript.js"></script>
+    <script src="traerJson.js"></script>
 
    </body>
 </html>
